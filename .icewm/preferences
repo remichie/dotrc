@@ -1,0 +1,61 @@
+# Command to run when CPU status monitor is clicked
+CPUStatusCommand="xterm -title top -font fixed +sb -e top "
+
+# Command to run on clock
+ClockCommand="xclock"
+
+# Command to run on mailbox
+MailCommand="rxvt +sb -title mutt -e mutt"
+
+# Show automatic power management (APM) status on task bar
+TaskBarShowAPMStatus=0 # 0 / 1
+
+# Show APM status on task bar in time-format
+TaskBarShowAPMTime=1 # 0 / 1
+
+# Terminal emulator (must accept -e option)
+TerminalCommand="rxvt"
+
+# Show mailbox status on the task bar
+TaskBarShowMailboxStatus=1 # 0 / 1
+
+# Mailbox path ($MAIL is used if no value is specified)
+MailBoxPath="/home/kostja/Mail/inbox/new"
+
+# Delay between new-mail checks in seconds
+MailCheckDelay=300 # 0-3600
+
+# Network defice for which to show status
+NetworkStatusDevice="eth1"
+
+# Names of the Workspaces
+WorkspaceNames=" 1 "," 2 "," 3 "," 4 "
+
+# WM_CLASS to allow runonce for CPUStatusCommand
+CPUStatusClassHint="top.XTerm"
+
+# WM_CLASS to allow runonce for NetStatusCommand
+NetStatusClassHint="netstat.XTerm"
+
+# WM_CLASS to allow runonce for ClockCommand
+ClockClassHint="icewm.XClock"
+
+# WM_CLASS to allow runonce for MailCommand
+MailClassHint="mutt.XTerm"
+
+# Attempt to create a small QuickSwitch window (1/3 instead of 3/5 of screen width)
+QuickSwitchSmallWindow=1 # 0 / 1
+
+# Show the window title above (all reachable) icons
+QuickSwitchTextFirst=1 # 0 / 1
+
+#  Task bar clock/APM uses nice pixmapped LCD display (but then it doesn't display correctly in many languages anymore, e.g. for Japanese and Korean it works only when a real font is used and not the LEDs
+TaskBarClockLeds=1 # 0/1
+
+# Desktop background color
+DesktopBackgroundColor=""
+
+# Desktop background image
+DesktopBackgroundImage=""
+
+ShowTaskBar = 1

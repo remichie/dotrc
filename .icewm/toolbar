@@ -1,0 +1,5 @@
+prog "XTerm" "xterm" urxvt 
+prog "xmms" "xmms" vlc
+prog "FTE" "fte" fte
+prog "Mozilla" "mozilla" /home/kostja/local/bin/mozilla.sh 
+prog "Opera" "opera" opera

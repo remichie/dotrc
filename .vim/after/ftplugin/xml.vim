@@ -1,0 +1,1 @@
+/home/kostja/.vim/ftplugin/xml.vim

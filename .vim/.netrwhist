@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/opt/local/work/tarantool-rtb'
+let g:netrw_dirhist_2='/opt/local/work/tarantool-master'
+let g:netrw_dirhist_3='/opt/local/work/tarantool-master/src'
+let g:netrw_dirhist_4='/home/kostja/.freerdp'
+let g:netrw_dirhist_5='/home/kostja/.freerdp/certs'
+let g:netrw_dirhist_6='/opt/local/work/tarantool-master/src/box'

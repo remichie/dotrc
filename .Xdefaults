@@ -1,0 +1,100 @@
+printCommand: lpr
+
+! change to that when Xlib stop support koi-8
+! xrus*xmodmap: jcuken-koi8
+! change to that when Xlib will support koi-8
+!xrus*xmodmap: jcuken-cyr
+!xrus*switchKeys: Control_R+Shift_R
+!xrus*perWindow: true
+
+!
+!
+xterm*showTitle: off
+xterm*geometry: 80x35
+xterm*background: black
+xterm*foreground: gray90
+xterm*color8: #808080
+xterm*color9: #ff6060
+xterm*color10: #00ff00
+xterm*color11: #ffff00
+xterm*color12: #8080ff
+xterm*color13: #ff40ff
+xterm*color14: #00ffff
+xterm*color15: #ffffff
+xterm*utf8: 1
+xterm*eightBitInput: true
+xterm*font: -efont-fixed-medium-r-normal--24-240-75-75-c-120-iso10646-1
+xterm*boldfont: -efont-fixed-medium-r-normal--24-240-75-75-c-120-iso10646-1
+xterm*boldMode: false
+xterm*underLine: false
+xterm*ScrollBar: on
+xterm*SaveLines: 10000
+xterm*multiScroll:	on
+xterm*jumpScroll:	on
+xterm*Scrollbar*width:		16
+xterm*Scrollbar*height:		16
+xterm*Scrollbar*shadowWidth:	2
+xterm*Scrollbar*borderWidth:	3
+!Xterm*cursorColor: Black
+
+rxvt*boldMode: false
+rxvt*boldFont: -efont-fixed-medium-r-normal--24-240-75-75-c-120-iso10646-1
+rxvt*font: -efont-fixed-medium-r-normal--24-240-75-75-c-120-iso10646-1
+rxvt*scrollstyle: xterm
+rxvt*scrollBar_right: false
+rxvt*saveLines: 30000
+rxvt*showTitle: off
+rxvt*geometry: 80x35
+rxvt.termName: rxvt
+! do not scroll to the end when tty receives output
+rxvt*scrollTtyOutput: fasle
+
+rxvt*background: black
+rxvt*foreground: gray90
+rxvt*color8: #808080
+rxvt*color9: #ff6060
+rxvt*color10: #00ff00
+rxvt*color11: #ffff00
+rxvt*color12: #8080ff
+rxvt*color13: #ff40ff
+rxvt*color14: #00ffff
+rxvt*color15: #ffffff
+
+URxvt.*.boldMode: false
+URxvt.*.boldFont: -efont-fixed-medium-r-normal--24-240-75-75-c-120-iso10646-1
+URxvt.*.font: -efont-fixed-medium-r-normal--24-240-75-75-c-120-iso10646-1
+URxvt.*.scrollstyle: xterm
+URxvt.*.scrollBar_right: false
+URxvt.*.saveLines: 30000
+URxvt.*.showTitle: off
+URxvt.*.geometry: 80x35
+URxvt.*.termName: rxvt
+! do .not scroll to the end when tty receives output
+URxvt.*.scrollTtyOutput: fasle
+URxvt.*.background: black
+URxvt.*.foreground: gray90
+URxvt.*.color8: #808080
+URxvt.*.color9: #ff6060
+URxvt.*.color10: #00ff00
+URxvt.*.color11: #ffff00
+URxvt.*.color12: #8080ff
+URxvt.*.color13: #ff40ff
+URxvt.*.color14: #00ffff
+URxvt.*.color15: #ffffff
+URxvt*perl-ext-common:  default,tabbed,matcher,fullscreen
+URxvt*tabbed.hide: true
+URxvt*tabbed.newButton: false
+URxvt*urlLauncher: firefox 
+URxvt*colorUL: #86a2be
+!#URxvt*matcher.button: 1
+!#URxvt*perl-ext-common: fullscreen
+URxvt*keysym.F11:   perl:fullscreen:switch
+
+Scrollbar.JumpCursor:	True
+
+Ghostview.pageMedia:  A4
+Ghostview*antialias: true
+
+*XConsole*text.scrollHorizontal:         False
+*XConsole*text.wrap: line
+

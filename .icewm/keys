@@ -1,0 +1,4 @@
+key "Alt+Ctrl+n" urxvt
+key "Alt+Ctrl+l" urxvt -geometry 80x10
+key "Alt+Ctrl+q" gnome-screensaver-command -l
+key "Alt+Ctrl+m" /home/kostja/local/bin/mozilla.sh

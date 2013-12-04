@@ -1,0 +1,28 @@
+#
+xterm.dTitleBar: 0
+xterm.icon: xterm
+rxvt.dTitleBar: 0
+rxvt.icon: xterm
+URxvt.dTitleBar: 0
+URxvt.icon: xterm
+urxvt.dTitleBar: 0
+urxvt.icon: xterm
+#licq.LicqWharf.geometry: 20x24+1280+1174
+#licq.LicqWharf.dTitleBar: 0
+#licq.LicqWharf.layer: Menu 
+#licq.LicqWharf.tray: Exclusive 
+#licq.LicqWharf.ignoreQuickSwitch: 1
+#licq.LicqWharf.allWorkspaces: 1
+#licq.LicqWharf.fHide: 1
+# licq main window
+licq.MainWindow.ignoreTaskBar: 1 
+# licq.ignoreTaskBar: 1
+licq.icon: licq
+xmms.icon: xmms
+xmms.layer: Normal
+xconsole.workspace: 3
+xconsole.icon: xconsole
+desktop_window.ignoreQuickSwitch: 1
+gnome-panel.ignoreQuickSwitch: 1
+desktop_window.ignoreWinList: 1
+gnome-panel.ignoreWinList: 1
